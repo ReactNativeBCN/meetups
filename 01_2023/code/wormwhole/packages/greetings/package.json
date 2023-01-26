@@ -1,0 +1,9 @@
+{
+  "name": "greetings",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "transpile":"npx babel --presets=@babel/preset-env,@babel/preset-react index.js -o ../../apps/server/dist/greetings.js"
+  }
+}
